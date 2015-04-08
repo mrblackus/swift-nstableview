@@ -12,6 +12,9 @@
 		4538ADD01AD509E400629525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADCF1AD509E400629525 /* Images.xcassets */; };
 		4538ADD31AD509E400629525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADD11AD509E400629525 /* Main.storyboard */; };
 		4538ADDF1AD509E400629525 /* Swift_NSTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538ADDE1AD509E400629525 /* Swift_NSTableViewTests.swift */; };
+		4538ADEA1AD50A0600629525 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADE81AD50A0600629525 /* MyCellView.xib */; };
+		4538ADEB1AD50A0600629525 /* MyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538ADE91AD50A0600629525 /* MyCellView.swift */; };
+		4538ADED1AD50A1200629525 /* xcode-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADEC1AD50A1200629525 /* xcode-6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		4538ADD81AD509E400629525 /* Swift-NSTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-NSTableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4538ADDD1AD509E400629525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4538ADDE1AD509E400629525 /* Swift_NSTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_NSTableViewTests.swift; sourceTree = "<group>"; };
+		4538ADE81AD50A0600629525 /* MyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellView.xib; sourceTree = "<group>"; };
+		4538ADE91AD50A0600629525 /* MyCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCellView.swift; sourceTree = "<group>"; };
+		4538ADEC1AD50A1200629525 /* xcode-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xcode-6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 		4538ADC81AD509E400629525 /* Swift-NSTableView */ = {
 			isa = PBXGroup;
 			children = (
+				4538ADEC1AD50A1200629525 /* xcode-6.png */,
+				4538ADE81AD50A0600629525 /* MyCellView.xib */,
+				4538ADE91AD50A0600629525 /* MyCellView.swift */,
 				4538ADCB1AD509E400629525 /* AppDelegate.swift */,
 				4538ADCD1AD509E400629525 /* ViewController.swift */,
 				4538ADCF1AD509E400629525 /* Images.xcassets */,
@@ -189,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4538ADED1AD50A1200629525 /* xcode-6.png in Resources */,
 				4538ADD01AD509E400629525 /* Images.xcassets in Resources */,
+				4538ADEA1AD50A0600629525 /* MyCellView.xib in Resources */,
 				4538ADD31AD509E400629525 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +221,7 @@
 			files = (
 				4538ADCE1AD509E400629525 /* ViewController.swift in Sources */,
 				4538ADCC1AD509E400629525 /* AppDelegate.swift in Sources */,
+				4538ADEB1AD50A0600629525 /* MyCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
