@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
+class ViewController: NSViewController {
 
     @IBOutlet weak var tableView: NSTableView!
     
@@ -40,6 +40,9 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         }
     }
 
+}
+extension ViewController: NSTableViewDataSource, NSTableViewDelegate {
+    
     func numberOfRowsInTableView(tableView: NSTableView) -> Int {
         return data!.count
     }
@@ -58,6 +61,6 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         
         return cell
     }
-
 }
 
+http://nscurious.com/2015/04/08/using-view-based-nstableview-with-swift/
