@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4538ADCC1AD509E400629525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538ADCB1AD509E400629525 /* AppDelegate.swift */; };
+		4538ADCE1AD509E400629525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538ADCD1AD509E400629525 /* ViewController.swift */; };
+		4538ADD01AD509E400629525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADCF1AD509E400629525 /* Images.xcassets */; };
+		4538ADD31AD509E400629525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4538ADD11AD509E400629525 /* Main.storyboard */; };
+		4538ADDF1AD509E400629525 /* Swift_NSTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538ADDE1AD509E400629525 /* Swift_NSTableViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4538ADD91AD509E400629525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4538ADBE1AD509E400629525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4538ADC51AD509E400629525;
+			remoteInfo = "Swift-NSTableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4538ADC61AD509E400629525 /* Swift-NSTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-NSTableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4538ADCA1AD509E400629525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4538ADCB1AD509E400629525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4538ADCD1AD509E400629525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4538ADCF1AD509E400629525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4538ADD21AD509E400629525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4538ADD81AD509E400629525 /* Swift-NSTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-NSTableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4538ADDD1AD509E400629525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4538ADDE1AD509E400629525 /* Swift_NSTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_NSTableViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4538ADC31AD509E400629525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4538ADD51AD509E400629525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4538ADBD1AD509E400629525 = {
+			isa = PBXGroup;
+			children = (
+				4538ADC81AD509E400629525 /* Swift-NSTableView */,
+				4538ADDB1AD509E400629525 /* Swift-NSTableViewTests */,
+				4538ADC71AD509E400629525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4538ADC71AD509E400629525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4538ADC61AD509E400629525 /* Swift-NSTableView.app */,
+				4538ADD81AD509E400629525 /* Swift-NSTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4538ADC81AD509E400629525 /* Swift-NSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4538ADCB1AD509E400629525 /* AppDelegate.swift */,
+				4538ADCD1AD509E400629525 /* ViewController.swift */,
+				4538ADCF1AD509E400629525 /* Images.xcassets */,
+				4538ADD11AD509E400629525 /* Main.storyboard */,
+				4538ADC91AD509E400629525 /* Supporting Files */,
+			);
+			path = "Swift-NSTableView";
+			sourceTree = "<group>";
+		};
+		4538ADC91AD509E400629525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4538ADCA1AD509E400629525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4538ADDB1AD509E400629525 /* Swift-NSTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4538ADDE1AD509E400629525 /* Swift_NSTableViewTests.swift */,
+				4538ADDC1AD509E400629525 /* Supporting Files */,
+			);
+			path = "Swift-NSTableViewTests";
+			sourceTree = "<group>";
+		};
+		4538ADDC1AD509E400629525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4538ADDD1AD509E400629525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4538ADC51AD509E400629525 /* Swift-NSTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4538ADE21AD509E400629525 /* Build configuration list for PBXNativeTarget "Swift-NSTableView" */;
+			buildPhases = (
+				4538ADC21AD509E400629525 /* Sources */,
+				4538ADC31AD509E400629525 /* Frameworks */,
+				4538ADC41AD509E400629525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-NSTableView";
+			productName = "Swift-NSTableView";
+			productReference = 4538ADC61AD509E400629525 /* Swift-NSTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4538ADD71AD509E400629525 /* Swift-NSTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4538ADE51AD509E400629525 /* Build configuration list for PBXNativeTarget "Swift-NSTableViewTests" */;
+			buildPhases = (
+				4538ADD41AD509E400629525 /* Sources */,
+				4538ADD51AD509E400629525 /* Frameworks */,
+				4538ADD61AD509E400629525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4538ADDA1AD509E400629525 /* PBXTargetDependency */,
+			);
+			name = "Swift-NSTableViewTests";
+			productName = "Swift-NSTableViewTests";
+			productReference = 4538ADD81AD509E400629525 /* Swift-NSTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4538ADBE1AD509E400629525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mathieu Savy";
+				TargetAttributes = {
+					4538ADC51AD509E400629525 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4538ADD71AD509E400629525 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4538ADC51AD509E400629525;
+					};
+				};
+			};
+			buildConfigurationList = 4538ADC11AD509E400629525 /* Build configuration list for PBXProject "Swift-NSTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4538ADBD1AD509E400629525;
+			productRefGroup = 4538ADC71AD509E400629525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4538ADC51AD509E400629525 /* Swift-NSTableView */,
+				4538ADD71AD509E400629525 /* Swift-NSTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4538ADC41AD509E400629525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4538ADD01AD509E400629525 /* Images.xcassets in Resources */,
+				4538ADD31AD509E400629525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4538ADD61AD509E400629525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4538ADC21AD509E400629525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4538ADCE1AD509E400629525 /* ViewController.swift in Sources */,
+				4538ADCC1AD509E400629525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4538ADD41AD509E400629525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4538ADDF1AD509E400629525 /* Swift_NSTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4538ADDA1AD509E400629525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4538ADC51AD509E400629525 /* Swift-NSTableView */;
+			targetProxy = 4538ADD91AD509E400629525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4538ADD11AD509E400629525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4538ADD21AD509E400629525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4538ADE01AD509E400629525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4538ADE11AD509E400629525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4538ADE31AD509E400629525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift-NSTableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4538ADE41AD509E400629525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift-NSTableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4538ADE61AD509E400629525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-NSTableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-NSTableView.app/Contents/MacOS/Swift-NSTableView";
+			};
+			name = Debug;
+		};
+		4538ADE71AD509E400629525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-NSTableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-NSTableView.app/Contents/MacOS/Swift-NSTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4538ADC11AD509E400629525 /* Build configuration list for PBXProject "Swift-NSTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4538ADE01AD509E400629525 /* Debug */,
+				4538ADE11AD509E400629525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4538ADE21AD509E400629525 /* Build configuration list for PBXNativeTarget "Swift-NSTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4538ADE31AD509E400629525 /* Debug */,
+				4538ADE41AD509E400629525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4538ADE51AD509E400629525 /* Build configuration list for PBXNativeTarget "Swift-NSTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4538ADE61AD509E400629525 /* Debug */,
+				4538ADE71AD509E400629525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4538ADBE1AD509E400629525 /* Project object */;
+}
